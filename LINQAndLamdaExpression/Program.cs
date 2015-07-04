@@ -200,14 +200,14 @@ namespace LINQAndLamdaExpression
             //LamdaExpression
 
 
-            var anotherproductlist = productList.Where(x => x.UnitsInStock > 50);
+            //var anotherproductlist = productList.Where(x => x.UnitsInStock > 50);
 
-            var anotherList = productList.Where(x=>x.UnitsInStock>50).Select(x=> new {id=x.ProductID,name=x.ProductName});
+            //var anotherList = productList.Where(x=>x.UnitsInStock>50).Select(x=> new {id=x.ProductID,name=x.ProductName});
 
-            foreach (var product in anotherList)
-            {
-                Console.WriteLine(product.name);             
-            }
+            //foreach (var product in anotherList)
+            //{
+            //    Console.WriteLine(product.name);             
+            //}
 
             Console.ReadKey();
         }
